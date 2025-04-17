@@ -1,0 +1,78 @@
+/* Import an elegant Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans:wght@400;600&display=swap');
+
+/* Global styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fef9f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+.wedding-header {
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 50px 20px;
+  border-bottom: 2px solid #ffb6c1;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+}
+
+.wedding-header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3em;
+  color: #c2185b;
+  margin-bottom: 10px;
+}
+
+.wedding-header .date {
+  font-size: 1.2em;
+  color: #6d6d6d;
+}
+
+/* Section styling */
+#wedding-section,
+#details {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 2px dashed #ffc0cb;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.2);
+}
+
+.wedding-section h2 {
+  font-size: 2em;
+  color: #b03060;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.event-details {
+  margin: 30px 0;
+  padding: 20px;
+  border-left: 5px solid #ff69b4;
+  background-color: #fffafc;
+  border-radius: 8px;
+}
+
+.event-details h3 {
+  color: #d63384;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%;
+  height: auto;
+  border: 5px solid #ffb6c1;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
